@@ -33,6 +33,12 @@ p {
     line-height: 30px;
     text-align: center;
 }
+.sasha-navbar {
+    background: var(--branding-color);
+    font-family: var(--default-font-family);
+    font-size: 20px;
+    padding-left: 20px;
+}
 .hero {
     background: var(--secondary-color);
     text-align: center;
@@ -83,9 +89,9 @@ p {
     padding: 120px 60px 0;
 }
 
-.row-decoration {
+/* .row-decoration {
     background-color: #f4e1d2;
-}
+} */
 
 .malta-image {
     width: 80%;

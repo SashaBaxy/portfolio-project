@@ -101,6 +101,11 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+.about-me-container {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
+}
 
 @media (max-width: 900px) {
     h2 {

@@ -1,6 +1,6 @@
 :root {
-    --branding-color: #6c63ff;
-    --secondary-color: #f9f7fe;
+    --branding-color: rgb(238, 162, 138);
+    --secondary-color: rgb(247, 202, 193);
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
 }
@@ -24,12 +24,14 @@ h1 {
 }
 h2 {
     font-size: 64px;
+    text-align: center;
 }
 p {
     font-family: var(--default-font-family);
     font-weight: normal;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
+    text-align: center;
 }
 .hero {
     background: var(--secondary-color);
@@ -49,26 +51,57 @@ p {
     font-size: 24px;
     color: #272142;
 }
-
 .btn-branding {
     background-color: var(--branding-color);
     color: white;
     border-radius: 4px;
+    border: 2px solid white;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
 }
 .btn-branding-outline {
     color: var(--branding-color);
-    border: 1px solid var(--branding-color);
+    background-color: white;
+    border: 2px solid var(--branding-color);
     border-radius: 4px;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
 }
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other-text {
+    font-family: var(--secondary-color);
+    font-size: 30px;
+    font-weight: bold;
+}
 .project-description {
     padding: 120px 60px 0;
 }
+
+.row-decoration {
+    background-color: #f4e1d2;
+}
+
+.malta-image {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.weather-image {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 900px) {
     h2 {
         font-size: 45px;

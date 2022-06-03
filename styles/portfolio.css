@@ -85,8 +85,11 @@ p {
     font-size: 30px;
     font-weight: bold;
 }
+.project-container,
 .project-description {
-    padding: 120px 60px 0;
+    padding: 20px 20px;
+    display: block;
+    margin: 0 !important;
 }
 
 .row-decoration {
@@ -132,6 +135,11 @@ p {
     .hero {
         padding: 80px 20px;
     }
+    .hero h1 {
+        line-height: 1.2;
+        margin-top: 3px;
+    }
+
     .about-me-container {
         margin: 0 !important;
     }

@@ -34,7 +34,7 @@ p {
     text-align: center;
 }
 .sasha-navbar {
-    background: var(--branding-color);
+    background: var(--secondary-color);
     font-family: var(--default-font-family);
     font-size: 20px;
     padding-left: 20px;
@@ -132,6 +132,9 @@ p {
         text-align: center !important;
         width: fit-content !important;
     }
+    .project-description h2 {
+        padding-top: 30px !important;
+    }
     .hero {
         padding: 80px 20px;
     }
@@ -146,12 +149,13 @@ p {
     .row-decoration {
         margin-left: 0 !important;
         margin-right: 0 !important;
-        display: flex !important;
-        flex-direction: column !important;
+        display: block;
     }
     .course-info {
         font-size: 17px !important;
         line-height: 1.5 !important;
-        padding: 0 !important;
+    }
+    .course-name {
+        margin-top: 0 !important;
     }
 }

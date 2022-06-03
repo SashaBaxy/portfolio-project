@@ -91,6 +91,8 @@ p {
 
 .row-decoration {
     background-color: #f4e1d2;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .malta-image {
@@ -122,10 +124,26 @@ p {
         line-height: 2;
     }
     .project-description {
-        padding: 0;
-        text-align: center;
+        padding-block-start: 0px !important;
+        display: inline-block !important;
+        text-align: center !important;
+        width: fit-content !important;
     }
     .hero {
         padding: 80px 20px;
+    }
+    .about-me-container {
+        margin: 0 !important;
+    }
+    .row-decoration {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .course-info {
+        font-size: 17px !important;
+        line-height: 1.5 !important;
+        padding: 0 !important;
     }
 }

@@ -99,7 +99,7 @@ p {
 }
 
 .row-decoration {
-    background-color: #f4e1d2;
+    background-color: var(--secondary-color);
     text-align: center;
     border-radius: 5px;
 }
@@ -118,6 +118,7 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
 .about-me-container {
     background: var(--secondary-color);
     text-align: center;
@@ -142,6 +143,24 @@ p {
     font-size: 35px;
     line-height: 27px;
     padding: 30px 360px;
+}
+.work-heading {
+    text-align: center !important;
+    font-size: 30px;
+    padding: 2px;
+}
+.project-work-row {
+    background-color: var(--secondary-color);
+    margin: 5px !important;
+    padding: 1px;
+}
+.malta-row {
+    display: flex;
+    flex: 50%;
+}
+.weather-row {
+    display: flex;
+    flex: 50%;
 }
 @media (max-width: 900px) {
     h2 {

@@ -42,18 +42,21 @@ p {
 nav a {
     color: #000000 !important;
 }
-nav a:hover {
+nav a:hover,
+footer a {
     color: white !important;
     transition: all 100ms ease-in-out !important;
 }
 nav li.active a {
     text-decoration: underline !important;
 }
-
+footer a:hover {
+    color: var(--secondary-color) !important;
+}
 .hero-portfolio {
     background: var(--secondary-color);
     text-align: center;
-    padding: 20px 20px;
+    padding: 10px 0px;
 }
 .hero {
     background: var(--secondary-color);
@@ -143,7 +146,7 @@ nav li.active a {
     text-align: center;
 }
 .contact-button {
-    padding: 20px 20px;
+    padding: 20px 10px;
     margin: 48px 48px;
 }
 .btn-contact {
@@ -172,6 +175,20 @@ nav li.active a {
 .weather-row {
     display: flex;
     flex: 50%;
+}
+.social-icons {
+    display: block;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.social-item {
+    text-shadow: 0 0 3px var(--branding-color), 0 0 3px #000000;
+    padding: 15px;
 }
 
 @media (max-width: 900px) {

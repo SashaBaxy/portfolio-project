@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Contact Me - Junior front-end developer - Sasha Baxendale</title>
+        <title>Contact Me - Junior ront-end developer - Sasha Baxendale</title>
 
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -33,7 +33,9 @@
     <body>
         <nav class="navbar navbar-expand-lg sasha-navbar shadow rounded">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Sasha Baxendale</a>
+                <a class="navbar-brand" href="index.html" title="Homepage "
+                    >Sasha Baxendale</a
+                >
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -51,19 +53,35 @@
                 >
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="index.html"
+                                title="Homepage"
+                                >Home</a
+                            >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Me</a>
+                            <a
+                                class="nav-link"
+                                href="about.html"
+                                title="About Sasha"
+                                >About Me</a
+                            >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="work.html">My Work</a>
+                            <a
+                                class="nav-link"
+                                href="work.html"
+                                title="Sasha's Work"
+                                >My Work</a
+                            >
                         </li>
                         <li class="nav-item active">
                             <a
                                 class="nav-link"
-                                aria-current="page"
                                 href="contact.html"
+                                title="Sasha's Contact Details"
                                 >Contact Me</a
                             >
                         </li>
@@ -80,6 +98,7 @@
                 <div class="col contact-button">
                     <a
                         href="mailto:email@example.com"
+                        title="Send Email Button"
                         class="btn btn-contact shadow-sm m-3"
                         >Email <i class="fa-solid fa-envelope"></i
                     ></a>
@@ -88,6 +107,7 @@
                     <a
                         href="https://www.linkedin.com/in/sasha-baxendale/"
                         class="btn btn-contact shadow-sm m-3"
+                        title="Link to Sasha's LinkedIn Profile"
                         target="_blank"
                         >LinkedIn <i class="fa-brands fa-linkedin"></i
                     ></a>
@@ -96,6 +116,7 @@
                     <a
                         href="https://twitter.com/SashaBaxy"
                         target="_blank"
+                        title="Link to Sasha's Twitter Profile"
                         class="btn btn-contact shadow-sm m-3"
                         >Twitter <i class="fa-brands fa-twitter"></i
                     ></a>
@@ -104,6 +125,7 @@
                     <a
                         href="https://github.com/SashaBaxy"
                         target="_blank"
+                        title="Link to Sasha's GitHub Profile"
                         class="btn btn-contact shadow-sm m-3"
                         >GitHub <i class="fa-brands fa-github"></i
                     ></a>

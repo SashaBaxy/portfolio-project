@@ -190,6 +190,11 @@ footer a:hover {
     text-shadow: 0 0 3px var(--branding-color), 0 0 3px #000000;
     padding: 15px;
 }
+.image-me {
+    filter: brightness(110%);
+    filter: contrast(120%);
+    border-radius: 0 100px 0 100px !important;
+}
 
 @media (max-width: 900px) {
     h2 {

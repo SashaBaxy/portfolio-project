@@ -196,6 +196,10 @@ footer a:hover {
     border-radius: 0 100px 0 100px !important;
 }
 
+.featimg {
+    height: 200px !important;
+}
+
 @media (max-width: 900px) {
     h2 {
         font-size: 45px;
@@ -208,7 +212,6 @@ footer a:hover {
         padding-block-start: 0px !important;
         display: inline-block !important;
         text-align: center !important;
-        width: fit-content !important;
     }
     .project-description h2 {
         padding-top: 30px !important;

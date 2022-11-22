@@ -197,7 +197,7 @@ footer a:hover {
 }
 
 .featimg {
-    height: 200px !important;
+    height: 100% !important;
 }
 
 @media (max-width: 900px) {
